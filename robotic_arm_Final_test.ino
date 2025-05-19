@@ -1,4 +1,8 @@
 //c++
+//Made by L2bcdf
+//use 3 servos and a stepper motor: controlled by 2 joysticks
+//Do not steal
+//There is room for 1 more servo in the code
 
 #include <Stepper.h>
 #define STEPS 32
