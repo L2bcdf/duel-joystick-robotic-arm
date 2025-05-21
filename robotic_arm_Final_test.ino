@@ -37,10 +37,10 @@ void setup() {
 }
 
 void loop() {
-  int xValue = analogRead(xPin);
-  int yValue = analogRead(yPin);
-  int x1Value = analogRead(x1Pin);
-  int y1Value = analogRead(y1Pin);
+  float xValue = analogRead(xPin);
+  float yValue = analogRead(yPin);
+  float x1Value = analogRead(x1Pin);
+  float y1Value = analogRead(y1Pin);
 
   xValue -= 520;
   xValue /= 500;
